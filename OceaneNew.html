@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>oceane</title>
+    <link rel="stylesheet" href="OceaneNew.css">
+    <link rel="stylesheet" href="https://use.typekit.net/ssn3oqz.css">
+    <script src="https://kit.fontawesome.com/9493e83d41.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="LogoIcon.svg" type="OceaneNew.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <li><a href="index.html" "OceaneNew.html"><img src="OceaneLogo.svg" class="logo"></a></li>
+            <div class="nav-links" class="wavy" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="divedeeper.html">dive deeper</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                    <li><a href="donate.html">donate</a></li>
+                </ul>
+
+                <div class="bubbles">
+                    <img src="bubble.png">
+                    <img src="bubble.png">
+                    <img src="bubble.png">
+                    <img src="bubble.png">
+                    <img src="bubble.png">
+                    <img src="bubble.png">
+                    <img src="bubble.png">
+                </div>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>confront climate change</h1>
+            <p>sustainable ocean-based climate solutions</p>
+            <a href="donate.html" class="hero-btn">take action</a>
+            <a href="divedeeper.html" class="hero-btn2">dive deeper</a>
+        </div>
+
+
+    </section>
+
+
+    <section class="header2">
+        <div class="text-box">
+            <h1>protecting arctic</h1>
+            <p>help us slow down the rapid temperature rise</p>
+            <a href="donate.html" class="hero-btn">take action</a>
+            <a href="divedeeper.html" class="hero-btn2">dive deeper</a>
+        </div>
+
+    </section>
+
+
+    <section class="header3">
+        <div class="text-box">
+            <h1>dive deeper</h1>
+            <p>get to know oceane<sup>®</sup> and our shoal</p>
+            <a href="donate.html" class="hero-btn">swim with us</a>
+            <a href="divedeeper.html" class="hero-btn2">dive deeper</a>
+        </div>
+
+    </section>
+
+
+    <section class="header4">
+        <div class="text-box">
+            <h1>contribute to the ocean</h1>
+            <p>donations and other ways to give</p>
+            <a href="donate.html" class="hero-btn">donate</a>
+            <a href="divedeeper.html" class="hero-btn2">dive deeper</a>
+        </div>
+
+    </section>
+
+    <!------Footer------>
+
+    <section class="footer">
+        <a href="index.html"><img src="OceaneFooterLogo.svg" class="logo"></a>
+        <p>receive email updates to learn how you can help make a difference for the future of our ocean.</p>
+        <div class="footer-row">
+            <div class="footer-col">
+
+                <form action="action_page.php">
+                    <div class="container" style="background-color:white">
+                        <input type="text" placeholder="email address" name="mail" required>
+                    </div>
+                </form>
+            </div>
+            <div class="footer-col">
+                <form action="action_page.php">
+                    <div class="container">
+                        <input type="submit" value="let's do it!">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>© 2022 Oceane</p>
+
+    </section>
+
+    <!------JavaScript for Toggle Menu------>
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+
+</html>
